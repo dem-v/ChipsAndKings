@@ -26,7 +26,6 @@ public class MainGameboard extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
-        java.awt.GridBagConstraints gridBagConstraints;
 
         panel2 = new java.awt.Panel();
         A8 = new javax.swing.JLabel();
@@ -96,7 +95,6 @@ public class MainGameboard extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(102, 153, 255));
-        setPreferredSize(new java.awt.Dimension(640, 480));
 
         panel2.setPreferredSize(new java.awt.Dimension(480, 480));
         panel2.setLayout(new java.awt.GridLayout(8, 8, 1, 1));
@@ -109,7 +107,6 @@ public class MainGameboard extends javax.swing.JFrame {
         A8.setPreferredSize(new java.awt.Dimension(60, 60));
         panel2.add(A8);
         A8.getAccessibleContext().setAccessibleName("A8");
-        A8.getAccessibleContext().setAccessibleDescription("");
 
         B8.setBackground(new java.awt.Color(0, 0, 0));
         B8.setToolTipText("");
