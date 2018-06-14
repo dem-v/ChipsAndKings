@@ -991,7 +991,8 @@ public class MainGameboard extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_F5MouseClicked
     
-    public static void PrepareSets(){
+    public void setInitIcons(ImageIcon pw, ImageIcon pb, ImageIcon kw, ImageIcon kb){
+        //<editor-fold defaultstate="collapsed">
         /*switch (ChooseFirstPlayerColor()) {
             case 1:
 
@@ -999,7 +1000,7 @@ public class MainGameboard extends javax.swing.JFrame {
             default:
 
         }*/
-        ChooseFirstPlayerColor();
+        /*ChooseFirstPlayerColor();
         
         ImageIcon kb = new ImageIcon("_kb.png");
         Image image = kb.getImage(); // transform it 
@@ -1023,10 +1024,13 @@ public class MainGameboard extends javax.swing.JFrame {
         Image image4 = pw.getImage(); // transform it 
         Image newimg4 = image4.getScaledInstance(59, 59,  java.awt.Image.SCALE_SMOOTH); // scale it the smooth way  
         pw = new ImageIcon(newimg4);
-        pw.getImage().flush();
+        pw.getImage().flush();*/
+        //</editor-fold>
         
         B3.setIcon(pw);
+        B3.setOpaque(false);
         B2.setIcon(pw);
+        B2.setOpaque(false);
         C3.setIcon(pw);
         C2.setIcon(pw);
         D3.setIcon(pw);
@@ -1054,7 +1058,7 @@ public class MainGameboard extends javax.swing.JFrame {
         D1.setIcon(kb);
     }
     
-    public static int ChooseFirstPlayerColor(){
+    /*public static int ChooseFirstPlayerColor(){
         int a = (int)Math.round(Math.random());
         DialogFX dialog = new DialogFX();
         dialog.setTitleText("Player1 color is: ");
@@ -1067,6 +1071,7 @@ public class MainGameboard extends javax.swing.JFrame {
                 msg = "White";
         }
         dialog.setMessage(msg);
+        dialog.showDialog();
         return a; 
     }
     
@@ -1098,80 +1103,78 @@ public class MainGameboard extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new MainGameboard().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new MainGameboard().setVisible(true);
         });
         
-        PrepareSets();
+        //PrepareSets();
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private static javax.swing.JLabel A1;
-    private static javax.swing.JLabel A2;
-    private static javax.swing.JLabel A3;
-    private static javax.swing.JLabel A4;
-    private static javax.swing.JLabel A5;
-    private static javax.swing.JLabel A6;
-    private static javax.swing.JLabel A7;
-    private static javax.swing.JLabel A8;
-    private static javax.swing.JLabel B1;
-    private static javax.swing.JLabel B2;
-    private static javax.swing.JLabel B3;
-    private static javax.swing.JLabel B4;
-    private static javax.swing.JLabel B5;
-    private static javax.swing.JLabel B6;
-    private static javax.swing.JLabel B7;
-    private static javax.swing.JLabel B8;
-    private static javax.swing.JLabel C1;
-    private static javax.swing.JLabel C2;
-    private static javax.swing.JLabel C3;
-    private static javax.swing.JLabel C4;
-    private static javax.swing.JLabel C5;
-    private static javax.swing.JLabel C6;
-    private static javax.swing.JLabel C7;
-    private static javax.swing.JLabel C8;
-    private static javax.swing.JLabel D1;
-    private static javax.swing.JLabel D2;
-    private static javax.swing.JLabel D3;
-    private static javax.swing.JLabel D4;
-    private static javax.swing.JLabel D5;
-    private static javax.swing.JLabel D6;
-    private static javax.swing.JLabel D7;
-    private static javax.swing.JLabel D8;
-    private static javax.swing.JLabel E1;
-    private static javax.swing.JLabel E2;
-    private static javax.swing.JLabel E3;
-    private static javax.swing.JLabel E4;
-    private static javax.swing.JLabel E5;
-    private static javax.swing.JLabel E6;
-    private static javax.swing.JLabel E7;
-    private static javax.swing.JLabel E8;
-    private static javax.swing.JLabel F1;
-    private static javax.swing.JLabel F2;
-    private static javax.swing.JLabel F3;
-    private static javax.swing.JLabel F4;
-    private static javax.swing.JLabel F5;
-    private static javax.swing.JLabel F6;
-    private static javax.swing.JLabel F7;
-    private static javax.swing.JLabel F8;
-    private static javax.swing.JLabel G1;
-    private static javax.swing.JLabel G2;
-    private static javax.swing.JLabel G3;
-    private static javax.swing.JLabel G4;
-    private static javax.swing.JLabel G5;
-    private static javax.swing.JLabel G6;
-    private static javax.swing.JLabel G7;
-    private static javax.swing.JLabel G8;
-    private static javax.swing.JLabel H1;
-    private static javax.swing.JLabel H2;
-    private static javax.swing.JLabel H3;
-    private static javax.swing.JLabel H4;
-    private static javax.swing.JLabel H5;
-    private static javax.swing.JLabel H6;
-    private static javax.swing.JLabel H7;
-    private static javax.swing.JLabel H8;
+    private javax.swing.JLabel A1;
+    private javax.swing.JLabel A2;
+    private javax.swing.JLabel A3;
+    private javax.swing.JLabel A4;
+    private javax.swing.JLabel A5;
+    private javax.swing.JLabel A6;
+    private javax.swing.JLabel A7;
+    private javax.swing.JLabel A8;
+    private javax.swing.JLabel B1;
+    private javax.swing.JLabel B2;
+    private javax.swing.JLabel B3;
+    private javax.swing.JLabel B4;
+    private javax.swing.JLabel B5;
+    private javax.swing.JLabel B6;
+    private javax.swing.JLabel B7;
+    private javax.swing.JLabel B8;
+    private javax.swing.JLabel C1;
+    private javax.swing.JLabel C2;
+    private javax.swing.JLabel C3;
+    private javax.swing.JLabel C4;
+    private javax.swing.JLabel C5;
+    private javax.swing.JLabel C6;
+    private javax.swing.JLabel C7;
+    private javax.swing.JLabel C8;
+    private javax.swing.JLabel D1;
+    private javax.swing.JLabel D2;
+    private javax.swing.JLabel D3;
+    private javax.swing.JLabel D4;
+    private javax.swing.JLabel D5;
+    private javax.swing.JLabel D6;
+    private javax.swing.JLabel D7;
+    private javax.swing.JLabel D8;
+    private javax.swing.JLabel E1;
+    private javax.swing.JLabel E2;
+    private javax.swing.JLabel E3;
+    private javax.swing.JLabel E4;
+    private javax.swing.JLabel E5;
+    private javax.swing.JLabel E6;
+    private javax.swing.JLabel E7;
+    private javax.swing.JLabel E8;
+    private javax.swing.JLabel F1;
+    private javax.swing.JLabel F2;
+    private javax.swing.JLabel F3;
+    private javax.swing.JLabel F4;
+    private javax.swing.JLabel F5;
+    private javax.swing.JLabel F6;
+    private javax.swing.JLabel F7;
+    private javax.swing.JLabel F8;
+    private javax.swing.JLabel G1;
+    private javax.swing.JLabel G2;
+    private javax.swing.JLabel G3;
+    private javax.swing.JLabel G4;
+    private javax.swing.JLabel G5;
+    private javax.swing.JLabel G6;
+    private javax.swing.JLabel G7;
+    private javax.swing.JLabel G8;
+    private javax.swing.JLabel H1;
+    private javax.swing.JLabel H2;
+    private javax.swing.JLabel H3;
+    private javax.swing.JLabel H4;
+    private javax.swing.JLabel H5;
+    private javax.swing.JLabel H6;
+    private javax.swing.JLabel H7;
+    private javax.swing.JLabel H8;
     private java.awt.Panel panel2;
     // End of variables declaration//GEN-END:variables
 }
