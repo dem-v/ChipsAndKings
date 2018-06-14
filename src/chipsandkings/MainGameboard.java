@@ -5,6 +5,13 @@
  */
 package chipsandkings;
 
+import java.awt.Image;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import org.thehecklers.dialogfx.DialogFX;
+
+
+
 /**
  *
  * @author v
@@ -105,6 +112,11 @@ public class MainGameboard extends javax.swing.JFrame {
         A8.setName("A8"); // NOI18N
         A8.setOpaque(true);
         A8.setPreferredSize(new java.awt.Dimension(60, 60));
+        A8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(A8);
         A8.getAccessibleContext().setAccessibleName("A8");
 
@@ -115,6 +127,11 @@ public class MainGameboard extends javax.swing.JFrame {
         B8.setName("jLabel1"); // NOI18N
         B8.setOpaque(true);
         B8.setPreferredSize(new java.awt.Dimension(60, 60));
+        B8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(B8);
 
         C8.setBackground(new java.awt.Color(255, 255, 255));
@@ -123,6 +140,11 @@ public class MainGameboard extends javax.swing.JFrame {
         C8.setName("jLabel1"); // NOI18N
         C8.setOpaque(true);
         C8.setPreferredSize(new java.awt.Dimension(60, 60));
+        C8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(C8);
 
         D8.setBackground(new java.awt.Color(0, 0, 0));
@@ -132,6 +154,11 @@ public class MainGameboard extends javax.swing.JFrame {
         D8.setName("jLabel1"); // NOI18N
         D8.setOpaque(true);
         D8.setPreferredSize(new java.awt.Dimension(60, 60));
+        D8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(D8);
 
         E8.setBackground(new java.awt.Color(255, 255, 255));
@@ -140,6 +167,11 @@ public class MainGameboard extends javax.swing.JFrame {
         E8.setName("jLabel1"); // NOI18N
         E8.setOpaque(true);
         E8.setPreferredSize(new java.awt.Dimension(60, 60));
+        E8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(E8);
 
         F8.setBackground(new java.awt.Color(0, 0, 0));
@@ -149,6 +181,11 @@ public class MainGameboard extends javax.swing.JFrame {
         F8.setName("jLabel1"); // NOI18N
         F8.setOpaque(true);
         F8.setPreferredSize(new java.awt.Dimension(60, 60));
+        F8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(F8);
 
         G8.setBackground(new java.awt.Color(255, 255, 255));
@@ -157,6 +194,11 @@ public class MainGameboard extends javax.swing.JFrame {
         G8.setName("jLabel1"); // NOI18N
         G8.setOpaque(true);
         G8.setPreferredSize(new java.awt.Dimension(60, 60));
+        G8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(G8);
 
         H8.setBackground(new java.awt.Color(0, 0, 0));
@@ -166,6 +208,11 @@ public class MainGameboard extends javax.swing.JFrame {
         H8.setName("jLabel1"); // NOI18N
         H8.setOpaque(true);
         H8.setPreferredSize(new java.awt.Dimension(60, 60));
+        H8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(H8);
 
         A7.setBackground(new java.awt.Color(0, 0, 0));
@@ -175,6 +222,11 @@ public class MainGameboard extends javax.swing.JFrame {
         A7.setName("jLabel1"); // NOI18N
         A7.setOpaque(true);
         A7.setPreferredSize(new java.awt.Dimension(60, 60));
+        A7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(A7);
 
         B7.setBackground(new java.awt.Color(255, 255, 255));
@@ -183,6 +235,11 @@ public class MainGameboard extends javax.swing.JFrame {
         B7.setName("jLabel1"); // NOI18N
         B7.setOpaque(true);
         B7.setPreferredSize(new java.awt.Dimension(60, 60));
+        B7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(B7);
 
         C7.setBackground(new java.awt.Color(0, 0, 0));
@@ -192,6 +249,11 @@ public class MainGameboard extends javax.swing.JFrame {
         C7.setName("jLabel1"); // NOI18N
         C7.setOpaque(true);
         C7.setPreferredSize(new java.awt.Dimension(60, 60));
+        C7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(C7);
 
         D7.setBackground(new java.awt.Color(255, 255, 255));
@@ -200,6 +262,11 @@ public class MainGameboard extends javax.swing.JFrame {
         D7.setName("jLabel1"); // NOI18N
         D7.setOpaque(true);
         D7.setPreferredSize(new java.awt.Dimension(60, 60));
+        D7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(D7);
 
         E7.setBackground(new java.awt.Color(0, 0, 0));
@@ -209,6 +276,11 @@ public class MainGameboard extends javax.swing.JFrame {
         E7.setName("jLabel1"); // NOI18N
         E7.setOpaque(true);
         E7.setPreferredSize(new java.awt.Dimension(60, 60));
+        E7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(E7);
 
         F7.setBackground(new java.awt.Color(255, 255, 255));
@@ -217,6 +289,11 @@ public class MainGameboard extends javax.swing.JFrame {
         F7.setName("jLabel1"); // NOI18N
         F7.setOpaque(true);
         F7.setPreferredSize(new java.awt.Dimension(60, 60));
+        F7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(F7);
 
         G7.setBackground(new java.awt.Color(0, 0, 0));
@@ -226,6 +303,11 @@ public class MainGameboard extends javax.swing.JFrame {
         G7.setName("jLabel1"); // NOI18N
         G7.setOpaque(true);
         G7.setPreferredSize(new java.awt.Dimension(60, 60));
+        G7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(G7);
 
         H7.setBackground(new java.awt.Color(255, 255, 255));
@@ -234,6 +316,11 @@ public class MainGameboard extends javax.swing.JFrame {
         H7.setName("jLabel1"); // NOI18N
         H7.setOpaque(true);
         H7.setPreferredSize(new java.awt.Dimension(60, 60));
+        H7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(H7);
 
         A6.setBackground(new java.awt.Color(255, 255, 255));
@@ -242,6 +329,11 @@ public class MainGameboard extends javax.swing.JFrame {
         A6.setName("jLabel1"); // NOI18N
         A6.setOpaque(true);
         A6.setPreferredSize(new java.awt.Dimension(60, 60));
+        A6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(A6);
 
         B6.setBackground(new java.awt.Color(0, 0, 0));
@@ -251,6 +343,11 @@ public class MainGameboard extends javax.swing.JFrame {
         B6.setName("jLabel1"); // NOI18N
         B6.setOpaque(true);
         B6.setPreferredSize(new java.awt.Dimension(60, 60));
+        B6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(B6);
 
         C6.setBackground(new java.awt.Color(255, 255, 255));
@@ -259,6 +356,11 @@ public class MainGameboard extends javax.swing.JFrame {
         C6.setName("jLabel1"); // NOI18N
         C6.setOpaque(true);
         C6.setPreferredSize(new java.awt.Dimension(60, 60));
+        C6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(C6);
 
         D6.setBackground(new java.awt.Color(0, 0, 0));
@@ -268,6 +370,11 @@ public class MainGameboard extends javax.swing.JFrame {
         D6.setName("jLabel1"); // NOI18N
         D6.setOpaque(true);
         D6.setPreferredSize(new java.awt.Dimension(60, 60));
+        D6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(D6);
 
         E6.setBackground(new java.awt.Color(255, 255, 255));
@@ -276,6 +383,11 @@ public class MainGameboard extends javax.swing.JFrame {
         E6.setName("jLabel1"); // NOI18N
         E6.setOpaque(true);
         E6.setPreferredSize(new java.awt.Dimension(60, 60));
+        E6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(E6);
 
         F6.setBackground(new java.awt.Color(0, 0, 0));
@@ -285,6 +397,11 @@ public class MainGameboard extends javax.swing.JFrame {
         F6.setName("jLabel1"); // NOI18N
         F6.setOpaque(true);
         F6.setPreferredSize(new java.awt.Dimension(60, 60));
+        F6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(F6);
 
         G6.setBackground(new java.awt.Color(255, 255, 255));
@@ -293,6 +410,11 @@ public class MainGameboard extends javax.swing.JFrame {
         G6.setName("jLabel1"); // NOI18N
         G6.setOpaque(true);
         G6.setPreferredSize(new java.awt.Dimension(60, 60));
+        G6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(G6);
 
         H6.setBackground(new java.awt.Color(0, 0, 0));
@@ -302,6 +424,11 @@ public class MainGameboard extends javax.swing.JFrame {
         H6.setName("jLabel1"); // NOI18N
         H6.setOpaque(true);
         H6.setPreferredSize(new java.awt.Dimension(60, 60));
+        H6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(H6);
 
         A5.setBackground(new java.awt.Color(0, 0, 0));
@@ -311,6 +438,11 @@ public class MainGameboard extends javax.swing.JFrame {
         A5.setName("jLabel1"); // NOI18N
         A5.setOpaque(true);
         A5.setPreferredSize(new java.awt.Dimension(60, 60));
+        A5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(A5);
 
         B5.setBackground(new java.awt.Color(255, 255, 255));
@@ -319,6 +451,11 @@ public class MainGameboard extends javax.swing.JFrame {
         B5.setName("jLabel1"); // NOI18N
         B5.setOpaque(true);
         B5.setPreferredSize(new java.awt.Dimension(60, 60));
+        B5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(B5);
 
         C5.setBackground(new java.awt.Color(0, 0, 0));
@@ -328,6 +465,11 @@ public class MainGameboard extends javax.swing.JFrame {
         C5.setName("jLabel1"); // NOI18N
         C5.setOpaque(true);
         C5.setPreferredSize(new java.awt.Dimension(60, 60));
+        C5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(C5);
 
         D5.setBackground(new java.awt.Color(255, 255, 255));
@@ -336,6 +478,11 @@ public class MainGameboard extends javax.swing.JFrame {
         D5.setName("jLabel1"); // NOI18N
         D5.setOpaque(true);
         D5.setPreferredSize(new java.awt.Dimension(60, 60));
+        D5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(D5);
 
         E5.setBackground(new java.awt.Color(0, 0, 0));
@@ -345,6 +492,11 @@ public class MainGameboard extends javax.swing.JFrame {
         E5.setName("jLabel1"); // NOI18N
         E5.setOpaque(true);
         E5.setPreferredSize(new java.awt.Dimension(60, 60));
+        E5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(E5);
 
         F5.setBackground(new java.awt.Color(255, 255, 255));
@@ -353,6 +505,11 @@ public class MainGameboard extends javax.swing.JFrame {
         F5.setName("jLabel1"); // NOI18N
         F5.setOpaque(true);
         F5.setPreferredSize(new java.awt.Dimension(60, 60));
+        F5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(F5);
 
         G5.setBackground(new java.awt.Color(0, 0, 0));
@@ -362,6 +519,11 @@ public class MainGameboard extends javax.swing.JFrame {
         G5.setName("jLabel1"); // NOI18N
         G5.setOpaque(true);
         G5.setPreferredSize(new java.awt.Dimension(60, 60));
+        G5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(G5);
 
         H5.setBackground(new java.awt.Color(255, 255, 255));
@@ -370,6 +532,11 @@ public class MainGameboard extends javax.swing.JFrame {
         H5.setName("jLabel1"); // NOI18N
         H5.setOpaque(true);
         H5.setPreferredSize(new java.awt.Dimension(60, 60));
+        H5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(H5);
 
         A4.setBackground(new java.awt.Color(255, 255, 255));
@@ -378,6 +545,11 @@ public class MainGameboard extends javax.swing.JFrame {
         A4.setName("jLabel1"); // NOI18N
         A4.setOpaque(true);
         A4.setPreferredSize(new java.awt.Dimension(60, 60));
+        A4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(A4);
 
         B4.setBackground(new java.awt.Color(0, 0, 0));
@@ -387,6 +559,11 @@ public class MainGameboard extends javax.swing.JFrame {
         B4.setName("jLabel1"); // NOI18N
         B4.setOpaque(true);
         B4.setPreferredSize(new java.awt.Dimension(60, 60));
+        B4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(B4);
 
         C4.setBackground(new java.awt.Color(255, 255, 255));
@@ -395,6 +572,11 @@ public class MainGameboard extends javax.swing.JFrame {
         C4.setName("jLabel1"); // NOI18N
         C4.setOpaque(true);
         C4.setPreferredSize(new java.awt.Dimension(60, 60));
+        C4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(C4);
 
         D4.setBackground(new java.awt.Color(0, 0, 0));
@@ -404,6 +586,11 @@ public class MainGameboard extends javax.swing.JFrame {
         D4.setName("jLabel1"); // NOI18N
         D4.setOpaque(true);
         D4.setPreferredSize(new java.awt.Dimension(60, 60));
+        D4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(D4);
 
         E4.setBackground(new java.awt.Color(255, 255, 255));
@@ -412,6 +599,11 @@ public class MainGameboard extends javax.swing.JFrame {
         E4.setName("jLabel1"); // NOI18N
         E4.setOpaque(true);
         E4.setPreferredSize(new java.awt.Dimension(60, 60));
+        E4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(E4);
 
         F4.setBackground(new java.awt.Color(0, 0, 0));
@@ -421,6 +613,11 @@ public class MainGameboard extends javax.swing.JFrame {
         F4.setName("jLabel1"); // NOI18N
         F4.setOpaque(true);
         F4.setPreferredSize(new java.awt.Dimension(60, 60));
+        F4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(F4);
 
         G4.setBackground(new java.awt.Color(255, 255, 255));
@@ -429,6 +626,11 @@ public class MainGameboard extends javax.swing.JFrame {
         G4.setName("jLabel1"); // NOI18N
         G4.setOpaque(true);
         G4.setPreferredSize(new java.awt.Dimension(60, 60));
+        G4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(G4);
 
         H4.setBackground(new java.awt.Color(0, 0, 0));
@@ -438,6 +640,11 @@ public class MainGameboard extends javax.swing.JFrame {
         H4.setName("jLabel1"); // NOI18N
         H4.setOpaque(true);
         H4.setPreferredSize(new java.awt.Dimension(60, 60));
+        H4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(H4);
 
         A3.setBackground(new java.awt.Color(0, 0, 0));
@@ -447,6 +654,11 @@ public class MainGameboard extends javax.swing.JFrame {
         A3.setName("jLabel1"); // NOI18N
         A3.setOpaque(true);
         A3.setPreferredSize(new java.awt.Dimension(60, 60));
+        A3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(A3);
 
         B3.setBackground(new java.awt.Color(255, 255, 255));
@@ -455,6 +667,11 @@ public class MainGameboard extends javax.swing.JFrame {
         B3.setName("jLabel1"); // NOI18N
         B3.setOpaque(true);
         B3.setPreferredSize(new java.awt.Dimension(60, 60));
+        B3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(B3);
 
         C3.setBackground(new java.awt.Color(0, 0, 0));
@@ -464,6 +681,11 @@ public class MainGameboard extends javax.swing.JFrame {
         C3.setName("jLabel1"); // NOI18N
         C3.setOpaque(true);
         C3.setPreferredSize(new java.awt.Dimension(60, 60));
+        C3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(C3);
 
         D3.setBackground(new java.awt.Color(255, 255, 255));
@@ -472,6 +694,11 @@ public class MainGameboard extends javax.swing.JFrame {
         D3.setName("jLabel1"); // NOI18N
         D3.setOpaque(true);
         D3.setPreferredSize(new java.awt.Dimension(60, 60));
+        D3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(D3);
 
         E3.setBackground(new java.awt.Color(0, 0, 0));
@@ -481,6 +708,11 @@ public class MainGameboard extends javax.swing.JFrame {
         E3.setName("jLabel1"); // NOI18N
         E3.setOpaque(true);
         E3.setPreferredSize(new java.awt.Dimension(60, 60));
+        E3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(E3);
 
         F3.setBackground(new java.awt.Color(255, 255, 255));
@@ -489,6 +721,11 @@ public class MainGameboard extends javax.swing.JFrame {
         F3.setName("jLabel1"); // NOI18N
         F3.setOpaque(true);
         F3.setPreferredSize(new java.awt.Dimension(60, 60));
+        F3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(F3);
 
         G3.setBackground(new java.awt.Color(0, 0, 0));
@@ -498,6 +735,11 @@ public class MainGameboard extends javax.swing.JFrame {
         G3.setName("jLabel1"); // NOI18N
         G3.setOpaque(true);
         G3.setPreferredSize(new java.awt.Dimension(60, 60));
+        G3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(G3);
 
         H3.setBackground(new java.awt.Color(255, 255, 255));
@@ -506,6 +748,11 @@ public class MainGameboard extends javax.swing.JFrame {
         H3.setName("jLabel1"); // NOI18N
         H3.setOpaque(true);
         H3.setPreferredSize(new java.awt.Dimension(60, 60));
+        H3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(H3);
 
         A2.setBackground(new java.awt.Color(255, 255, 255));
@@ -514,6 +761,11 @@ public class MainGameboard extends javax.swing.JFrame {
         A2.setName("jLabel1"); // NOI18N
         A2.setOpaque(true);
         A2.setPreferredSize(new java.awt.Dimension(60, 60));
+        A2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(A2);
 
         B2.setBackground(new java.awt.Color(0, 0, 0));
@@ -523,6 +775,11 @@ public class MainGameboard extends javax.swing.JFrame {
         B2.setName("jLabel1"); // NOI18N
         B2.setOpaque(true);
         B2.setPreferredSize(new java.awt.Dimension(60, 60));
+        B2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(B2);
 
         C2.setBackground(new java.awt.Color(255, 255, 255));
@@ -531,6 +788,11 @@ public class MainGameboard extends javax.swing.JFrame {
         C2.setName("jLabel1"); // NOI18N
         C2.setOpaque(true);
         C2.setPreferredSize(new java.awt.Dimension(60, 60));
+        C2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(C2);
 
         D2.setBackground(new java.awt.Color(0, 0, 0));
@@ -540,6 +802,11 @@ public class MainGameboard extends javax.swing.JFrame {
         D2.setName("jLabel1"); // NOI18N
         D2.setOpaque(true);
         D2.setPreferredSize(new java.awt.Dimension(60, 60));
+        D2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(D2);
 
         E2.setBackground(new java.awt.Color(255, 255, 255));
@@ -548,6 +815,11 @@ public class MainGameboard extends javax.swing.JFrame {
         E2.setName("jLabel1"); // NOI18N
         E2.setOpaque(true);
         E2.setPreferredSize(new java.awt.Dimension(60, 60));
+        E2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(E2);
 
         F2.setBackground(new java.awt.Color(0, 0, 0));
@@ -557,6 +829,11 @@ public class MainGameboard extends javax.swing.JFrame {
         F2.setName("jLabel1"); // NOI18N
         F2.setOpaque(true);
         F2.setPreferredSize(new java.awt.Dimension(60, 60));
+        F2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(F2);
 
         G2.setBackground(new java.awt.Color(255, 255, 255));
@@ -565,6 +842,11 @@ public class MainGameboard extends javax.swing.JFrame {
         G2.setName("jLabel1"); // NOI18N
         G2.setOpaque(true);
         G2.setPreferredSize(new java.awt.Dimension(60, 60));
+        G2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(G2);
 
         H2.setBackground(new java.awt.Color(0, 0, 0));
@@ -574,6 +856,11 @@ public class MainGameboard extends javax.swing.JFrame {
         H2.setName("jLabel1"); // NOI18N
         H2.setOpaque(true);
         H2.setPreferredSize(new java.awt.Dimension(60, 60));
+        H2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(H2);
 
         A1.setBackground(new java.awt.Color(0, 0, 0));
@@ -583,6 +870,11 @@ public class MainGameboard extends javax.swing.JFrame {
         A1.setName("jLabel1"); // NOI18N
         A1.setOpaque(true);
         A1.setPreferredSize(new java.awt.Dimension(60, 60));
+        A1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(A1);
 
         B1.setBackground(new java.awt.Color(255, 255, 255));
@@ -591,6 +883,11 @@ public class MainGameboard extends javax.swing.JFrame {
         B1.setName("jLabel1"); // NOI18N
         B1.setOpaque(true);
         B1.setPreferredSize(new java.awt.Dimension(60, 60));
+        B1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(B1);
 
         C1.setBackground(new java.awt.Color(0, 0, 0));
@@ -600,6 +897,11 @@ public class MainGameboard extends javax.swing.JFrame {
         C1.setName("jLabel1"); // NOI18N
         C1.setOpaque(true);
         C1.setPreferredSize(new java.awt.Dimension(60, 60));
+        C1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(C1);
 
         D1.setBackground(new java.awt.Color(255, 255, 255));
@@ -608,6 +910,11 @@ public class MainGameboard extends javax.swing.JFrame {
         D1.setName("jLabel1"); // NOI18N
         D1.setOpaque(true);
         D1.setPreferredSize(new java.awt.Dimension(60, 60));
+        D1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(D1);
 
         E1.setBackground(new java.awt.Color(0, 0, 0));
@@ -617,6 +924,11 @@ public class MainGameboard extends javax.swing.JFrame {
         E1.setName("jLabel1"); // NOI18N
         E1.setOpaque(true);
         E1.setPreferredSize(new java.awt.Dimension(60, 60));
+        E1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(E1);
 
         F1.setBackground(new java.awt.Color(255, 255, 255));
@@ -625,6 +937,11 @@ public class MainGameboard extends javax.swing.JFrame {
         F1.setName("jLabel1"); // NOI18N
         F1.setOpaque(true);
         F1.setPreferredSize(new java.awt.Dimension(60, 60));
+        F1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(F1);
 
         G1.setBackground(new java.awt.Color(0, 0, 0));
@@ -634,6 +951,11 @@ public class MainGameboard extends javax.swing.JFrame {
         G1.setName("jLabel1"); // NOI18N
         G1.setOpaque(true);
         G1.setPreferredSize(new java.awt.Dimension(60, 60));
+        G1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(G1);
 
         H1.setBackground(new java.awt.Color(255, 255, 255));
@@ -642,6 +964,11 @@ public class MainGameboard extends javax.swing.JFrame {
         H1.setName("jLabel1"); // NOI18N
         H1.setOpaque(true);
         H1.setPreferredSize(new java.awt.Dimension(60, 60));
+        H1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
         panel2.add(H1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -660,6 +987,89 @@ public class MainGameboard extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void F5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_F5MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_F5MouseClicked
+    
+    public static void PrepareSets(){
+        /*switch (ChooseFirstPlayerColor()) {
+            case 1:
+
+                break;
+            default:
+
+        }*/
+        ChooseFirstPlayerColor();
+        
+        ImageIcon kb = new ImageIcon("_kb.png");
+        Image image = kb.getImage(); // transform it 
+        Image newimg = image.getScaledInstance(59, 59,  java.awt.Image.SCALE_SMOOTH); // scale it the smooth way  
+        kb = new ImageIcon(newimg);
+        kb.getImage().flush();
+        
+        ImageIcon pb = new ImageIcon("_pb.png");
+        Image image2 = pb.getImage(); // transform it 
+        Image newimg2 = image2.getScaledInstance(59, 59,  java.awt.Image.SCALE_SMOOTH); // scale it the smooth way  
+        pb = new ImageIcon(newimg2);
+        pb.getImage().flush();
+        
+        ImageIcon kw = new ImageIcon("_kw.png");
+        Image image3 = kw.getImage(); // transform it 
+        Image newimg3 = image3.getScaledInstance(59, 59,  java.awt.Image.SCALE_SMOOTH); // scale it the smooth way  
+        kw = new ImageIcon(newimg3);
+        kw.getImage().flush();
+        
+        ImageIcon pw = new ImageIcon("_pw.png");
+        Image image4 = pw.getImage(); // transform it 
+        Image newimg4 = image4.getScaledInstance(59, 59,  java.awt.Image.SCALE_SMOOTH); // scale it the smooth way  
+        pw = new ImageIcon(newimg4);
+        pw.getImage().flush();
+        
+        B3.setIcon(pw);
+        B2.setIcon(pw);
+        C3.setIcon(pw);
+        C2.setIcon(pw);
+        D3.setIcon(pw);
+        D2.setIcon(pw);
+        E3.setIcon(pw);
+        E2.setIcon(pw);
+        F3.setIcon(pw);
+        F2.setIcon(pw);
+        G3.setIcon(pw);
+        G2.setIcon(pw);
+        E1.setIcon(kw);
+        
+        B7.setIcon(pb);
+        B6.setIcon(pb);
+        C7.setIcon(pb);
+        C6.setIcon(pb);
+        D7.setIcon(pb);
+        D6.setIcon(pb);
+        E7.setIcon(pb);
+        E6.setIcon(pb);
+        F7.setIcon(pb);
+        F6.setIcon(pb);
+        G7.setIcon(pb);
+        G6.setIcon(pb);
+        D1.setIcon(kb);
+    }
+    
+    public static int ChooseFirstPlayerColor(){
+        int a = (int)Math.round(Math.random());
+        DialogFX dialog = new DialogFX();
+        dialog.setTitleText("Player1 color is: ");
+        String msg = "";
+        switch(a){
+            case 1: 
+                msg = "White";
+                break;
+            default:
+                msg = "White";
+        }
+        dialog.setMessage(msg);
+        return a; 
+    }
+    
     /**
      * @param args the command line arguments
      */
@@ -693,73 +1103,75 @@ public class MainGameboard extends javax.swing.JFrame {
                 new MainGameboard().setVisible(true);
             }
         });
+        
+        PrepareSets();
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel A1;
-    private javax.swing.JLabel A2;
-    private javax.swing.JLabel A3;
-    private javax.swing.JLabel A4;
-    private javax.swing.JLabel A5;
-    private javax.swing.JLabel A6;
-    private javax.swing.JLabel A7;
-    private javax.swing.JLabel A8;
-    private javax.swing.JLabel B1;
-    private javax.swing.JLabel B2;
-    private javax.swing.JLabel B3;
-    private javax.swing.JLabel B4;
-    private javax.swing.JLabel B5;
-    private javax.swing.JLabel B6;
-    private javax.swing.JLabel B7;
-    private javax.swing.JLabel B8;
-    private javax.swing.JLabel C1;
-    private javax.swing.JLabel C2;
-    private javax.swing.JLabel C3;
-    private javax.swing.JLabel C4;
-    private javax.swing.JLabel C5;
-    private javax.swing.JLabel C6;
-    private javax.swing.JLabel C7;
-    private javax.swing.JLabel C8;
-    private javax.swing.JLabel D1;
-    private javax.swing.JLabel D2;
-    private javax.swing.JLabel D3;
-    private javax.swing.JLabel D4;
-    private javax.swing.JLabel D5;
-    private javax.swing.JLabel D6;
-    private javax.swing.JLabel D7;
-    private javax.swing.JLabel D8;
-    private javax.swing.JLabel E1;
-    private javax.swing.JLabel E2;
-    private javax.swing.JLabel E3;
-    private javax.swing.JLabel E4;
-    private javax.swing.JLabel E5;
-    private javax.swing.JLabel E6;
-    private javax.swing.JLabel E7;
-    private javax.swing.JLabel E8;
-    private javax.swing.JLabel F1;
-    private javax.swing.JLabel F2;
-    private javax.swing.JLabel F3;
-    private javax.swing.JLabel F4;
-    private javax.swing.JLabel F5;
-    private javax.swing.JLabel F6;
-    private javax.swing.JLabel F7;
-    private javax.swing.JLabel F8;
-    private javax.swing.JLabel G1;
-    private javax.swing.JLabel G2;
-    private javax.swing.JLabel G3;
-    private javax.swing.JLabel G4;
-    private javax.swing.JLabel G5;
-    private javax.swing.JLabel G6;
-    private javax.swing.JLabel G7;
-    private javax.swing.JLabel G8;
-    private javax.swing.JLabel H1;
-    private javax.swing.JLabel H2;
-    private javax.swing.JLabel H3;
-    private javax.swing.JLabel H4;
-    private javax.swing.JLabel H5;
-    private javax.swing.JLabel H6;
-    private javax.swing.JLabel H7;
-    private javax.swing.JLabel H8;
+    private static javax.swing.JLabel A1;
+    private static javax.swing.JLabel A2;
+    private static javax.swing.JLabel A3;
+    private static javax.swing.JLabel A4;
+    private static javax.swing.JLabel A5;
+    private static javax.swing.JLabel A6;
+    private static javax.swing.JLabel A7;
+    private static javax.swing.JLabel A8;
+    private static javax.swing.JLabel B1;
+    private static javax.swing.JLabel B2;
+    private static javax.swing.JLabel B3;
+    private static javax.swing.JLabel B4;
+    private static javax.swing.JLabel B5;
+    private static javax.swing.JLabel B6;
+    private static javax.swing.JLabel B7;
+    private static javax.swing.JLabel B8;
+    private static javax.swing.JLabel C1;
+    private static javax.swing.JLabel C2;
+    private static javax.swing.JLabel C3;
+    private static javax.swing.JLabel C4;
+    private static javax.swing.JLabel C5;
+    private static javax.swing.JLabel C6;
+    private static javax.swing.JLabel C7;
+    private static javax.swing.JLabel C8;
+    private static javax.swing.JLabel D1;
+    private static javax.swing.JLabel D2;
+    private static javax.swing.JLabel D3;
+    private static javax.swing.JLabel D4;
+    private static javax.swing.JLabel D5;
+    private static javax.swing.JLabel D6;
+    private static javax.swing.JLabel D7;
+    private static javax.swing.JLabel D8;
+    private static javax.swing.JLabel E1;
+    private static javax.swing.JLabel E2;
+    private static javax.swing.JLabel E3;
+    private static javax.swing.JLabel E4;
+    private static javax.swing.JLabel E5;
+    private static javax.swing.JLabel E6;
+    private static javax.swing.JLabel E7;
+    private static javax.swing.JLabel E8;
+    private static javax.swing.JLabel F1;
+    private static javax.swing.JLabel F2;
+    private static javax.swing.JLabel F3;
+    private static javax.swing.JLabel F4;
+    private static javax.swing.JLabel F5;
+    private static javax.swing.JLabel F6;
+    private static javax.swing.JLabel F7;
+    private static javax.swing.JLabel F8;
+    private static javax.swing.JLabel G1;
+    private static javax.swing.JLabel G2;
+    private static javax.swing.JLabel G3;
+    private static javax.swing.JLabel G4;
+    private static javax.swing.JLabel G5;
+    private static javax.swing.JLabel G6;
+    private static javax.swing.JLabel G7;
+    private static javax.swing.JLabel G8;
+    private static javax.swing.JLabel H1;
+    private static javax.swing.JLabel H2;
+    private static javax.swing.JLabel H3;
+    private static javax.swing.JLabel H4;
+    private static javax.swing.JLabel H5;
+    private static javax.swing.JLabel H6;
+    private static javax.swing.JLabel H7;
+    private static javax.swing.JLabel H8;
     private java.awt.Panel panel2;
     // End of variables declaration//GEN-END:variables
 }
